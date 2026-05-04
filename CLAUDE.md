@@ -16,10 +16,12 @@ Each game is a self-contained file:
 
 ## Workflow
 
-After any change: commit with a descriptive message and push to `origin/main`.
+Commit and push to `origin/main` frequently — after every meaningful change, not just at the end. This ensures work is never lost and the repo always reflects the current state.
 
 ```bash
 git add <file>
-git commit -m "description of change"
+git commit -m "short, descriptive message"
 git push
 ```
+
+Commit messages should be specific (e.g. `"Add Tank enemy type with HP bar"`, not `"update"`). Commit at logical checkpoints: after adding a feature, fixing a bug, or making a structural change.
